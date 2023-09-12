@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//hello
+
 protocol ChangeCityDelegate {
     func userEnteredANewCityName(city: String)
 }
