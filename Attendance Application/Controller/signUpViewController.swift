@@ -82,9 +82,6 @@ class signUpViewController: UIViewController,UIImagePickerControllerDelegate,UIN
                             newObject.setValue(emailTextField.text, forKey: "email")
                             newObject.setValue(passwordTextField.text, forKey: "password")
                             let imageToData = userSelectedImage.pngData()
-                            print("---------------------")
-                            print(imageToData)
-                            print("---------------------")
                             newObject.setValue(imageToData, forKey: "photo")
                             try context.save()
                             usernameTextField.text = ""

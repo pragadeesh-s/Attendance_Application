@@ -20,7 +20,7 @@ extension Users {
     @NSManaged public var password: String?
     @NSManaged public var username: String?
     @NSManaged public var photo: Data?
-
+    @NSManaged public var date: [Date]?
 }
 
 extension Users : Identifiable {
